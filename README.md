@@ -1,23 +1,21 @@
-# 🎮 JS Canvas Games
+# 🎮 JS Canvas Games  
 
-A collection of fun mini games built using JavaScript 🚀
+A collection of fun mini games built using JavaScript (HTML, CSS, Canvas) 🚀  
 
-## 🚀 Games Included
+---
 
-* 🐦 Flappy Bird
-* 🐍 Snake Game
+## 🚀 Games Included  
 
-## 📂 Project Structure
+- 🐦 Flappy Bird  
+- 🐍 Snake Game  
+- 🧱 Brick Breaker (2 Levels 🔥 NEW)  
 
-Each game is inside its own folder.
+---
 
-## 🛠 Tech Used
+## 📂 Project Structure  
 
-* HTML
-* CSS
-* JavaScript (Canvas)
+Each game is organized in its own folder for better structure:  
 
-## 📸 Preview
 
 
 
@@ -26,5 +24,5 @@ Each game is inside its own folder.
 If you like this project, give it a star ⭐
 
 ## 📺 YouTube
-
+www.youtube.com/@codinggeometry
 
