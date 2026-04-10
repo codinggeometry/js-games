@@ -8,7 +8,8 @@ A collection of fun mini games built using JavaScript (HTML, CSS, Canvas) 🚀
 
 - 🐦 Flappy Bird  
 - 🐍 Snake Game  
-- 🧱 Brick Breaker (2 Levels 🔥 NEW)  
+- 🧱 Brick Breaker (2 Levels 🔥)
+- 🚗 2D Car Game
 
 ---
 
