@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  background: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  font-family: Arial, sans-serif;
+}
+
+.game-container {
+  position: relative;
+  text-align: center;
+}
+
+canvas {
+  display: block;
+  background: #000;
+}
+
+/* 🎮 Bottom Title */
+.game-title {
+  font-size: 28px;
+  margin-top: 12px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: #00ffcc;
+
+  text-shadow:
+    0 0 5px #00ffcc,
+    0 0 10px #00ffcc,
+    0 0 20px #00ffcc;
+}
+
+/* ✨ Subtle Animated Watermark */
+.watermark {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  font-size: 42px;
+  font-weight: bold;
+  letter-spacing: 5px;
+
+  opacity: 0.25; /* 👈 balanced */
+
+  pointer-events: none;
+
+  animation: pulse 3.5s infinite ease-in-out,
+             colorShift 8s infinite linear;
+}
+
+/* Smooth pulse */
+@keyframes pulse {
+  0%, 100% {
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    transform: translate(-50%, -50%) scale(1.1);
+  }
+}
+
+/* Soft color glow */
+@keyframes colorShift {
+  0% {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc;
+  }
+  25% {
+    color: #ff3c3c;
+    text-shadow: 0 0 5px #ff3c3c;
+  }
+  50% {
+    color: #ffd93c;
+    text-shadow: 0 0 5px #ffd93c;
+  }
+  75% {
+    color: #3c8cff;
+    text-shadow: 0 0 5px #3c8cff;
+  }
+  100% {
+    color: #00ffcc;
+    text-shadow: 0 0 5px #00ffcc;
+  }
+}
+    
